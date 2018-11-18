@@ -180,7 +180,7 @@ figure {
               -o-transform: scaleX(1);
               transform: scaleX(1); }
         #portfolio-aside #portfolio-main-menu ul li.active a {
-          color: #EC7063; }
+          color: #FFF; }
           #portfolio-aside #portfolio-main-menu ul li.active a:after {
             visibility: visible;
             -webkit-transform: scaleX(1);
@@ -215,7 +215,7 @@ figure {
           #portfolio-aside .portfolio-footer ul li a:hover, #portfolio-aside .portfolio-footer ul li a:active, #portfolio-aside .portfolio-footer ul li a:focus {
             text-decoration: none;
             outline: none;
-            color: #EC7063; }
+            color: #FFF; }
 
 .container-wrap {
   max-width: 1170px;
