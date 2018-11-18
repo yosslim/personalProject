@@ -22,12 +22,14 @@ body {
       font-size: 16px; } }
 
 a {
-  color: #EC7063;
+  color: #000;
+  font-weight: bold;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
   a:hover, a:active, a:focus {
-    color: #EC7063;
+    color: #FFF;
+    font-weight: bold;
     outline: none;
     text-decoration: none !important; }
 
@@ -80,7 +82,7 @@ figure {
   position: fixed;
   overflow-y: scroll;
   z-index: 1001;
-  background-color: rgba(236, 112, 99 , 0.3);
+  background: #EC7063;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
@@ -351,7 +353,7 @@ body.offcanvas {
     -o-transform: translateX(0);
     transform: translateX(0);
     width: 300px;
-    background: #f2f3f7;
+    background: #EC7063;
     z-index: 999;
     position: fixed; }
   body.offcanvas #portfolio-main, body.offcanvas .portfolio-nav-toggle {
